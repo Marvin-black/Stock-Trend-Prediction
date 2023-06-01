@@ -6,7 +6,7 @@ from keras.models import load_model
 import streamlit as st
 
 start = '2015-01-01'
-end = '2021-12-31'
+end = '2022-12-31'
 
 st.title('STOCK TREND PREDICTION')
 user_input = st.text_input('Enter Stock Ticker', 'MSFT')
